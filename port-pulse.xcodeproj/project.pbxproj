@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1925E2392B0C5AF200680EDA /* port_pulseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925E2382B0C5AF200680EDA /* port_pulseApp.swift */; };
+		1925E23B2B0C5AF200680EDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925E23A2B0C5AF200680EDA /* ContentView.swift */; };
+		1925E23D2B0C5AF400680EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1925E23C2B0C5AF400680EDA /* Assets.xcassets */; };
+		1925E2402B0C5AF400680EDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1925E23F2B0C5AF400680EDA /* Preview Assets.xcassets */; };
+		1925E24B2B0C5AF400680EDA /* port_pulseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925E24A2B0C5AF400680EDA /* port_pulseTests.swift */; };
+		1925E2552B0C5AF400680EDA /* port_pulseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925E2542B0C5AF400680EDA /* port_pulseUITests.swift */; };
+		1925E2572B0C5AF400680EDA /* port_pulseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925E2562B0C5AF400680EDA /* port_pulseUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1925E2472B0C5AF400680EDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1925E22D2B0C5AF200680EDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1925E2342B0C5AF200680EDA;
+			remoteInfo = "port-pulse";
+		};
+		1925E2512B0C5AF400680EDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1925E22D2B0C5AF200680EDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1925E2342B0C5AF200680EDA;
+			remoteInfo = "port-pulse";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1925E2352B0C5AF200680EDA /* port-pulse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "port-pulse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1925E2382B0C5AF200680EDA /* port_pulseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = port_pulseApp.swift; sourceTree = "<group>"; };
+		1925E23A2B0C5AF200680EDA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1925E23C2B0C5AF400680EDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1925E23F2B0C5AF400680EDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1925E2412B0C5AF400680EDA /* port_pulse.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = port_pulse.entitlements; sourceTree = "<group>"; };
+		1925E2462B0C5AF400680EDA /* port-pulseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "port-pulseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1925E24A2B0C5AF400680EDA /* port_pulseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = port_pulseTests.swift; sourceTree = "<group>"; };
+		1925E2502B0C5AF400680EDA /* port-pulseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "port-pulseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1925E2542B0C5AF400680EDA /* port_pulseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = port_pulseUITests.swift; sourceTree = "<group>"; };
+		1925E2562B0C5AF400680EDA /* port_pulseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = port_pulseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1925E2322B0C5AF200680EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1925E2432B0C5AF400680EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1925E24D2B0C5AF400680EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1925E22C2B0C5AF200680EDA = {
+			isa = PBXGroup;
+			children = (
+				1925E2372B0C5AF200680EDA /* port-pulse */,
+				1925E2492B0C5AF400680EDA /* port-pulseTests */,
+				1925E2532B0C5AF400680EDA /* port-pulseUITests */,
+				1925E2362B0C5AF200680EDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1925E2362B0C5AF200680EDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1925E2352B0C5AF200680EDA /* port-pulse.app */,
+				1925E2462B0C5AF400680EDA /* port-pulseTests.xctest */,
+				1925E2502B0C5AF400680EDA /* port-pulseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1925E2372B0C5AF200680EDA /* port-pulse */ = {
+			isa = PBXGroup;
+			children = (
+				1925E2382B0C5AF200680EDA /* port_pulseApp.swift */,
+				1925E23A2B0C5AF200680EDA /* ContentView.swift */,
+				1925E23C2B0C5AF400680EDA /* Assets.xcassets */,
+				1925E2412B0C5AF400680EDA /* port_pulse.entitlements */,
+				1925E23E2B0C5AF400680EDA /* Preview Content */,
+			);
+			path = "port-pulse";
+			sourceTree = "<group>";
+		};
+		1925E23E2B0C5AF400680EDA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1925E23F2B0C5AF400680EDA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1925E2492B0C5AF400680EDA /* port-pulseTests */ = {
+			isa = PBXGroup;
+			children = (
+				1925E24A2B0C5AF400680EDA /* port_pulseTests.swift */,
+			);
+			path = "port-pulseTests";
+			sourceTree = "<group>";
+		};
+		1925E2532B0C5AF400680EDA /* port-pulseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1925E2542B0C5AF400680EDA /* port_pulseUITests.swift */,
+				1925E2562B0C5AF400680EDA /* port_pulseUITestsLaunchTests.swift */,
+			);
+			path = "port-pulseUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1925E2342B0C5AF200680EDA /* port-pulse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1925E25A2B0C5AF400680EDA /* Build configuration list for PBXNativeTarget "port-pulse" */;
+			buildPhases = (
+				1925E2312B0C5AF200680EDA /* Sources */,
+				1925E2322B0C5AF200680EDA /* Frameworks */,
+				1925E2332B0C5AF200680EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "port-pulse";
+			productName = "port-pulse";
+			productReference = 1925E2352B0C5AF200680EDA /* port-pulse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1925E2452B0C5AF400680EDA /* port-pulseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1925E25D2B0C5AF400680EDA /* Build configuration list for PBXNativeTarget "port-pulseTests" */;
+			buildPhases = (
+				1925E2422B0C5AF400680EDA /* Sources */,
+				1925E2432B0C5AF400680EDA /* Frameworks */,
+				1925E2442B0C5AF400680EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1925E2482B0C5AF400680EDA /* PBXTargetDependency */,
+			);
+			name = "port-pulseTests";
+			productName = "port-pulseTests";
+			productReference = 1925E2462B0C5AF400680EDA /* port-pulseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1925E24F2B0C5AF400680EDA /* port-pulseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1925E2602B0C5AF400680EDA /* Build configuration list for PBXNativeTarget "port-pulseUITests" */;
+			buildPhases = (
+				1925E24C2B0C5AF400680EDA /* Sources */,
+				1925E24D2B0C5AF400680EDA /* Frameworks */,
+				1925E24E2B0C5AF400680EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1925E2522B0C5AF400680EDA /* PBXTargetDependency */,
+			);
+			name = "port-pulseUITests";
+			productName = "port-pulseUITests";
+			productReference = 1925E2502B0C5AF400680EDA /* port-pulseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1925E22D2B0C5AF200680EDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					1925E2342B0C5AF200680EDA = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					1925E2452B0C5AF400680EDA = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 1925E2342B0C5AF200680EDA;
+					};
+					1925E24F2B0C5AF400680EDA = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 1925E2342B0C5AF200680EDA;
+					};
+				};
+			};
+			buildConfigurationList = 1925E2302B0C5AF200680EDA /* Build configuration list for PBXProject "port-pulse" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1925E22C2B0C5AF200680EDA;
+			productRefGroup = 1925E2362B0C5AF200680EDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1925E2342B0C5AF200680EDA /* port-pulse */,
+				1925E2452B0C5AF400680EDA /* port-pulseTests */,
+				1925E24F2B0C5AF400680EDA /* port-pulseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1925E2332B0C5AF200680EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1925E2402B0C5AF400680EDA /* Preview Assets.xcassets in Resources */,
+				1925E23D2B0C5AF400680EDA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1925E2442B0C5AF400680EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1925E24E2B0C5AF400680EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1925E2312B0C5AF200680EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1925E23B2B0C5AF200680EDA /* ContentView.swift in Sources */,
+				1925E2392B0C5AF200680EDA /* port_pulseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1925E2422B0C5AF400680EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1925E24B2B0C5AF400680EDA /* port_pulseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1925E24C2B0C5AF400680EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1925E2552B0C5AF400680EDA /* port_pulseUITests.swift in Sources */,
+				1925E2572B0C5AF400680EDA /* port_pulseUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1925E2482B0C5AF400680EDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1925E2342B0C5AF200680EDA /* port-pulse */;
+			targetProxy = 1925E2472B0C5AF400680EDA /* PBXContainerItemProxy */;
+		};
+		1925E2522B0C5AF400680EDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1925E2342B0C5AF200680EDA /* port-pulse */;
+			targetProxy = 1925E2512B0C5AF400680EDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1925E2582B0C5AF400680EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1925E2592B0C5AF400680EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1925E25B2B0C5AF400680EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "port-pulse/port_pulse.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"port-pulse/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wayne.port-pulse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1925E25C2B0C5AF400680EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "port-pulse/port_pulse.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"port-pulse/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wayne.port-pulse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1925E25E2B0C5AF400680EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wayne.port-pulseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/port-pulse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/port-pulse";
+			};
+			name = Debug;
+		};
+		1925E25F2B0C5AF400680EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wayne.port-pulseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/port-pulse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/port-pulse";
+			};
+			name = Release;
+		};
+		1925E2612B0C5AF400680EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wayne.port-pulseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "port-pulse";
+			};
+			name = Debug;
+		};
+		1925E2622B0C5AF400680EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wayne.port-pulseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "port-pulse";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1925E2302B0C5AF200680EDA /* Build configuration list for PBXProject "port-pulse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1925E2582B0C5AF400680EDA /* Debug */,
+				1925E2592B0C5AF400680EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1925E25A2B0C5AF400680EDA /* Build configuration list for PBXNativeTarget "port-pulse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1925E25B2B0C5AF400680EDA /* Debug */,
+				1925E25C2B0C5AF400680EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1925E25D2B0C5AF400680EDA /* Build configuration list for PBXNativeTarget "port-pulseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1925E25E2B0C5AF400680EDA /* Debug */,
+				1925E25F2B0C5AF400680EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1925E2602B0C5AF400680EDA /* Build configuration list for PBXNativeTarget "port-pulseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1925E2612B0C5AF400680EDA /* Debug */,
+				1925E2622B0C5AF400680EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1925E22D2B0C5AF200680EDA /* Project object */;
+}
