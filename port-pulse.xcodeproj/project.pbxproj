@@ -43,6 +43,7 @@
 		1925E2502B0C5AF400680EDA /* port-pulseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "port-pulseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1925E2542B0C5AF400680EDA /* port_pulseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = port_pulseUITests.swift; sourceTree = "<group>"; };
 		1925E2562B0C5AF400680EDA /* port_pulseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = port_pulseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1925E2652B107C8E00680EDA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +74,7 @@
 		1925E22C2B0C5AF200680EDA = {
 			isa = PBXGroup;
 			children = (
+				1925E2652B107C8E00680EDA /* README.md */,
 				1925E2372B0C5AF200680EDA /* port-pulse */,
 				1925E2492B0C5AF400680EDA /* port-pulseTests */,
 				1925E2532B0C5AF400680EDA /* port-pulseUITests */,
