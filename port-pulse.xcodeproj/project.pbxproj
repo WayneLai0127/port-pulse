@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1925E2392B0C5AF200680EDA /* port_pulseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925E2382B0C5AF200680EDA /* port_pulseApp.swift */; };
 		1925E23B2B0C5AF200680EDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925E23A2B0C5AF200680EDA /* ContentView.swift */; };
 		1925E23D2B0C5AF400680EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1925E23C2B0C5AF400680EDA /* Assets.xcassets */; };
 		1925E2402B0C5AF400680EDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1925E23F2B0C5AF400680EDA /* Preview Assets.xcassets */; };
@@ -35,7 +34,6 @@
 
 /* Begin PBXFileReference section */
 		1925E2352B0C5AF200680EDA /* port-pulse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "port-pulse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1925E2382B0C5AF200680EDA /* port_pulseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = port_pulseApp.swift; sourceTree = "<group>"; };
 		1925E23A2B0C5AF200680EDA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1925E23C2B0C5AF400680EDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1925E23F2B0C5AF400680EDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -95,7 +93,6 @@
 		1925E2372B0C5AF200680EDA /* port-pulse */ = {
 			isa = PBXGroup;
 			children = (
-				1925E2382B0C5AF200680EDA /* port_pulseApp.swift */,
 				1925E23A2B0C5AF200680EDA /* ContentView.swift */,
 				1925E23C2B0C5AF400680EDA /* Assets.xcassets */,
 				1925E2412B0C5AF400680EDA /* port_pulse.entitlements */,
@@ -260,7 +257,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1925E23B2B0C5AF200680EDA /* ContentView.swift in Sources */,
-				1925E2392B0C5AF200680EDA /* port_pulseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
